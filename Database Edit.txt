@@ -1,0 +1,57 @@
+11-02-2014
+============================================================================
+Section : ADD COLUMN
+DefaultValue	int	Checked
+
+Transfers : ADD COLUMN
+DNumber	nvarchar(50)	Checked
+
+VISIT: ADD COLUMNS:
+IMG1	image	Checked
+IMG2	image	Checked
+============================================================================
+VISIT: ADD COLUMNS:
+
+Proportion bit 		Checked
+SETTING : ADD COLUMNS:
+TXTVALUE	nvarchar(MAX)	Checked
+add values for the table:
+MSG 1 
+
+27-09-2013
+============================================================================
+ADD TABLE:
+SETTING(NAME Nvarchar,VALUE int)
+
+add values for the table:
+DAYS 7
+MAX   2
+LAB   0
+
+
+
+=====================================================================
+VISIT: ADD COLUMNS:
+
+UserID	int		Checked
+TStamp	datetime	Checked
+
+PATIENT : ADD COLUMNS:
+NatNumber 	Nvarchar(13);
+Chronic  	Bit 		default value is FALSE;
+UserID		nvarchar(15)	Checked
+Tstamp		datetime	Checked
+
+TRANSFER : ADD COLUMNS:
+UserID	nvarchar(50)	Checked
+TStamp	datetime	Checked
+
+EMP: ADD COLUMN:
+Privileges	nvarchar(100)	Checked
+
+Nationality:
+DefaultValue	int	Checked
+
+UPDATE EMP Table:
+EMPName = USRName
+
